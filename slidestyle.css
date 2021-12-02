@@ -1,0 +1,62 @@
+body {
+    background-color: blanchedalmond;
+    animation: animate 2s ease;
+}
+.note {
+    margin: 20px 10px 50px 10px;
+    font-family: cursive;
+    text-transform: capitalize;
+    font-size: medium;
+    font-style: italic;
+    text-align: justify;
+    padding: 10px;
+    color: rgb(0,0,0);
+    background-color: rgb(179, 169, 238);
+}
+.conbody {
+    text-align: left;
+    text-transform: lowercase;
+    font-size: larger;
+    line-height: 1.4em;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.lastbody {
+    text-align: left;
+    font-size: larger;
+    line-height: 1.4em;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+h2 {
+    margin: 10px 10px 15px 10px;
+    color: rgba(105, 90, 205, 0);
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    text-align: center;
+}
+.head {
+    font-weight: 600;
+
+}
+@keyframes animate {
+    from {
+        opacity :0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@media (max-width:550px) {
+    h2 {
+        font-size: 20px;
+    }
+    .note {
+        font-size: medium;
+        font-weight: 550px;
+    }
+
+}

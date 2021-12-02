@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+            PROGRAMMING TUTORIALS
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="slidestyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header active">
+            <a class="navbar-brand active" href="index.htm">programming stud</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#" class="active">c++ tutorial</a></li>
+            <li><a href="tut.htm">basic plan</a></li>
+            <li><a href="registerform.php">join us</a></li>
+            <li><a href="ask.php">Ask for premium</a></li>
+            <li><a href="gopremium.php">go premium now</a></li>
+          </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h2>welcome to c++ tutorial</h2>
+        <p class="note"><strong>Note:</strong> this tutorial includes theory as well as examples for better understandings. please read the concepts and understand them first and then do solve the examples and problems listed to sharpen your skills. try premium plan for more advanced and practical content. we wish you happy coding. </p>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="head">clck below</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse in">
+              <div class="panel-body lastbody">C++ is an object oriented programming language created by Bjarne Stroustroup as an extension to C language. it stands for C with Classes . it is one of the most 
+                powerful languages and has applications in gaming, software development, high level programming , compiler and hardware coding ,web and many more.<br>
+                 if you find the letter d written, it means a double quote. the browser may not be able to display double quote some times.
+              </div>
+            </div>
+          </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="head">Getting started with c</a>
+                </h4>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body conbody">Important terms:<br>
+                  <strong>Token:</strong> it is the smallest fundamental unit of a c++ program. It is of 5 types :<br>
+                  Keyword : reserved words of c++ which convey a special meaning to compiler during a program compilation. Eg int include break for while and many more<br>
+                  Identifiers : user defined words or name given to variables or functions by user<br>
+                  (Rules: contain : alphabets A-Z a-z digits 0-9 underscore_<br>
+                  Start with : alphabets or underscore)<br>
+                  Literals : constant values used in a program . <br>
+                  Eg string , integers , fractions, characters<br>
+                  Operators : symbols used to perform any kind of operation<br>
+                  Eg + for addition , - for subtraction (+,-,*,/,%,!,= etc)<br>
+                  Punctuators: separators used in program for readability and syntax<br>
+                  Eg [ ] { } ( ) ,  ;<br>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="head">Structure of a c++ program :</a>
+                </h4>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body conbody"> Header file<br>
+                  Main () function<br>
+                  Statements for code<br>
+                  <strong>Header files :</strong> these are predefined libraries containg functions for ease of code. We will explore the header files later.<br>
+                  For c++ language , <iostream.h> is the standard header file<br>
+                    <strong>Main() :</strong> it is the function where all programming statements are written which are directly executed by the compiler in order. It can be of any returntype of c(int,float,char,double,void)<br>
+                 </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="head">Input output in c</a>
+                </h4>
+              </div>
+              <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body conbody"> <strong>cin </strong>is the basic function for input in c++. <br>
+                  Syntax: cin>>variable;  it terminates input with spce tab or new line<br>
+                
+                  <strong>cout</strong> is the basic output function in c++ language.<br>
+                  Syntax: cout<<var; or cout<<"hello"; <br><br>
+                  Eg. hello world: the first program in c++<br>
+                  #include<iostream.h><br>
+                  Main() <br>
+                  { cout<< d hello world d;<br>
+                  Return 0; }<br>
+                  Explanation: #include is used to declare header files , main() is the function where statements are written and by default it is int type , cout prints hello world , return command is used to return any value of type of function as here main() is int type by default so returning an integer 0.<br>
+                 </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="head">Datatypes in c++</a>
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                  <div class="panel-body conbody"> Datatypes are the means to identify the type of data used in program. There are 2 broad categories for it:<br>
+                    <strong>Fundamental</strong> <br>
+                    <strong>Derieved</strong><br>
+                    Fundamental datatypes: predefined or built-in datatypes (int,char,float,double with modifiers)<br>
+                    Int: it defines integer type value. Variables of this type take 2 byte of memory.<br>
+                    Char: it defines a single character and takes 1 byte of memory<br>
+                    Float: stores fractional or decimal value upto 7 digits precision and takes 4 byte of memory<br>
+                    Double: long decimal values upto 15 digits and takes 8 bytes<br>
+                    <strong>Modifiers:</strong> short long signed unsigned<br>
+                    Signed int: stores both positive and negative values<br>
+                    Unsigned int : stores non negative integers<br>
+                    Long int: increases int range 2 times takes 4 bytes<br>
+                    Long double: increases double range to 19 digits and takes 10 bytes<br>
+                    Derieved: modify the existing datataypes<br>
+                    Const : used for defing constants so that their value can not be changed.<br>
+                    Eg : const float pi=3.14;<br>
+                    Reference : it is an alternative name given to existing variable.<br>
+                    Eg: int a=5; 	int &b = a;     cout<<<b; <span>b;  output: 5<br>
+                    Others: arrays pointers functions discussed later<br>
+                   </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="head">Variables in c++ :</a>
+                  </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                  <div class="panel-body conbody"> Variables are name given to a location in memory so that the data stored in memory can be accessed. They can be declared using any datatype. Eg int a; float f;<br>
+                    Writing simple input output program in c<br>
+                    #include<stdio.h><br>
+                    Void main()<br>
+                    { int a,b;<br>
+                    cin>>a>>b ;<br>
+                    cout<<“sum is ”<< a+b;<br>
+                    Explanation: this program inputs 2 integers in variables a and b and prints the sum.<br>
+                    Now do a practice session for basic input output using practice panel in the end.<br>
+                   </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="head">Operators in c++</a>
+                  </h4>
+                </div>
+                <div id="collapse7" class="panel-collapse collapse">
+                  <div class="panel-body conbody"> Arithmetic operators: for basic arithmetic operations<br>
+                    + : addition<br>
+                    - : subtraction<br>
+                    * : multiplication<br>
+                    / : division quotient<br>
+                    % : division remainder<br>
+                    ++ and -- : used to increase or decrease the value by 1.<br>
+                    When it is used as postfix( var ++ ) then value is first used in the expression and then it is incremented for next statement. When used as prefix (++ var) then value is first changed and incremented value is used in the expression. Same is for – decrement operator.<br>
+                    Eg. int a=6; cout<<a++;<br>
+                     cout<<++a;  output: 6 8<br>
+                    explanation: a has value 6. On writing a++ 6 is printed and then value of a becomes 7. On writing ++a value first becomes 7+1=8 and then printed 8.<br>
+                    Try: what is the final value of a:<br>
+                    Int a=11;   a= (++a) + (a++) – (a--);<br>
+                    Answer:12<br>
+                    <strong>Relational operators:</strong> these are used to check relation between two r more values and return true(1) or false(0)<br>
+                    ‘>’ Checks greater than  9>4 true<br>
+                    ‘<’ checks lesser than  9<4 false<br><br>
+                    >= checks greater than or equal to  4>=4 true<br>
+                    <= less than or equal to   8<=6  false<br>
+                    == check equality   8==8 true<br>
+                    != checks inequality   6 != 4 true<br>
+                    <strong>Logical operators :</strong> used to combine more than two expressions to execute multiple conditions at the same time<br>
+                    && : and returns true when all conditions are true<br>
+                    || : or returns true when atleast one condition is true and false if all conditions are false<br>
+                    ! : not is used to reverse the answer of expression (changes true to false and vice versa)<br>
+                    Eg.  int a=3,b=4,c=3,d=6,e;<br>
+                    E= ( a==b);  output : 0 <br><br>
+                    E= ( c!=b);  output : 1<br><br>
+                    E= (d>4 && a==c); output : 1<br><br>
+                    E= (a<5 || c>4);  output : 1<br><br>
+                      <strong>Conditional operator:</strong> it is a ternary operator which is used to check a condition and execute statements on the basis of result of that condition.  (?:)<br>
+                    Syntax: expression ? if it is true : if it is false<br>
+                    Eg : int a = 7;<br>
+                     a>5 ? cout<<“true” : cout<<“false”;   output: true<br>
+                     <strong>sizeof() operator:</strong> it returns the size in bytes of a variable.<br>
+                    Eg. int a=30;<br>
+                    cout<<< sizeof(a); <br><br>
+                    Output: 2 (as int stores 2 bytes)<br>
+                    <strong>Bitwise operator:</strong> when operators work on bits rather than decimal numbers<br>
+                    And & : compare each bit of two numbers in binary form and return 1 if both bits are 1 else 0. Convert number into binary form and execute and command.<br>
+                    Or | : compare each bit of two numbers in binary form and return 0 if both bits are 0 else 1. Convert number into binary form and execute or command.<br>
+                    Xor ^ : compare each bit of two numbers in binary form and return 1 if only one bit is 1 else 0. Convert number into binary form and execute xor command.<br>
+                    Eg : int a=60, b=13;  in binary form,<br>
+                    00001100 & 00011001 = 00001000 (8)<br>
+                    00001100 | 00011001 = 00011100 (29)<br>
+                    00001100 ^ 00011001 = 00010101 (21)<br>
+                    Right and left shift : these shift the binary digits to right and left respectively by the specified number<br>
+                    Int a=212;  a>>1 gives 106 and is equivalent to [a/( 2^1)]<br>
+                    A<<2 gives 848 and is equivalent to [a*(2^2)]<br><br>
+                   </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8" class="head">Flow of control</a>
+                  </h4>
+                </div>
+                <div id="collapse8" class="panel-collapse collapse">
+                  <div class="panel-body conbody"> <strong>Selection construct :</strong> if / if..else.. / switch<br>
+                    If(condition)  { statements when true }<br>
+                    Else { statement when false }<br>
+                    This checks any relational condition and execute set of commands on the basis of that condition being true nor false. It can also be nested with checking many conditions and giving else for each condition or for none.<br>
+                    <strong>Switch :</strong> this is a selection construct which is used for checking the equality relation unlike if else which checks all type of conditions. A variable is supplied I parenthesis and it is checked to be equal with each case member and set of commands are run until break command is reached or switch ends.<br>
+                    Syntax :<br>
+                    Switch(var) { case val1 : statements; break;<br>
+                    Case val2 : statements; break;<br>
+                    Default : statement;}<br>
+                    Where default is used to execute statements when none of the case value matches the variable supplied and is optional and always written in end.<br>
+                    <strong>Iteration construct :</strong> for loop/ while loop / do while loop<br>
+                    For: used to run specific commands repeatedly until the condition becomes false while updating the required variable. It is entry controlled as first condition is checked and then only statements are executed.<br>
+                    For ( initialization ; condition ; update ) { statements; }<br>
+                    For (int i=1; i<=10 ; i++ ) { cout<<i; }  this prints numbers from1 to 10<br><br>
+                    While: it is used to execute certain statements while a condition is true. It is also entry controlled.<br>
+                    While(condition)  { statements }<br>
+                    Int i=1 ; <br>
+                    while (i<=10) { cout<<<I;<span></span>i; i++ ; }<br><br>
+                    do while : similar to while but is exit controlled as first statements are excuted and then condition is checked.<br>
+                    Do { statements; }while( condition )<br>
+                   </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse9" class="head">Arrays </a>
+                  </h4>
+                </div>
+                <div id="collapse9" class="panel-collapse collapse">
+                  <div class="panel-body conbody"> Arrays are a collection of data items (all data in a program) of same type referenced under one name.<br>
+                    There are two types of arrays: one dimensional and multi dimensional( 2dimensional is preferred)<br>
+                    One dimensional arrays:  datatype variable[size-of-array];<br>
+                    Eg int a[10]; is an array of 10 integers starting from a[0] to a[9] where 0 to 9 are subscript or index.<br>
+                    Two dimensional arrays:  datatype variable[size-row][size-column];<br>
+                    These are implemented as matrix having rows and columns.<br>
+                    Eg int a[3][4]; is a 2 D array with 3 rows 4 columns and total 12 elements(3*4)<br>
+                    Array of strings: character arrays can be implemented as strings.<br>
+                    Char a[20];  cin>>a;<br>
+                   </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse10" class="head">Functions</a>
+                  </h4>
+                </div>
+                <div id="collapse10" class="panel-collapse collapse">
+                  <div class="panel-body conbody"> Collection of program ststements which can be called any number of times by its name.<br>
+                    Hey can be predefined in libraries or user defined for general purpose or avoiding reduplication.<br>
+                    Declaration: returntype fun-name(arguments if any) ;<br>
+                    { statements ; }<br>
+                    Calling:  fun-name(variables if any);<br>
+                    Defining : returntype (arg if any) { statements }<br>
+                    Eg  int add(int a, int b) { return a+b; }<br>
+                    Void main() { int x=2,y=3,z;<br>
+                    Z=add(x,y);  cout<< z;  } output: 5<br><br>
+                   </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse11" class="head">Structures</a>
+                  </h4>
+                </div>
+                <div id="collapse11" class="panel-collapse collapse">
+                  <div class="panel-body conbody"> These are a collection of data items of different type referenced under one name hich can be usd with the help of objects.<br>
+                    Declaration : struct structure-name  { data items };  where struct keyword is used to define structures.<br>
+                    Eg  struct student { char name[20];<br>
+                    Int id;  }stu;     where stu is the object of structure used to invoke data items<br>
+                    Objects can also be declared using structure name as datatype  ( student stu1; )<br>
+                    Invoking variables:  student stu;<br>
+                    cin>>stu.name>>stu.id ;<br>
+                    So ‘.’ Dot operator is used to access data items using objects of structures. Also objects can be made as arrays to store data of multiple entities.<br>
+                    Student stu[10]; <br>
+                    For(int i=0; i<10; i++)  cin>>stu[i].name>>stu[i].id ;<br>
+                    <strong>Nested structures:</strong> when a structure is declared inside another structure<br>
+                    There are two ways of doing this:<br>
+                    1.	Struct date { int d , m ,y ; };<br>
+                    Struct student { int id;  date dob; }; <br>
+                    2.	Struct student { int id;<br>
+                    Struct date { int d , m , y ; }; };<br>
+                   </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse12" class="head">pointers</a>
+                  </h4>
+                </div>
+                <div id="collapse12" class="panel-collapse collapse">
+                  <div class="panel-body conbody">Variables that can store memory address of another variable or the place in memory where a variable is sored are pointers.<br>
+                    Declaration: datatype *variable ;<br>
+                    Value stored at that memory address can be accessed by ‘*’ operator<br>
+                    Eg int a=5;  int *q = &a;<br>
+                    cout<< *q ;  gives 5<br>
+                    cout<<q;  gives address of a<br><br>
+                    Pointers and arrays:  by default arrays when passed to functions, act as pointers;<br>
+                    Eg  int a[] = {1,2,3,4};<br>
+                    cout<< a[0]<< *(a+2)<< *a ;  gives 1 3 1<br><br>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse16" class="head">Class in c++</a>
+                  </h4>
+                </div>
+                <div id="collapse16" class="panel-collapse collapse">
+                  <div class="panel-body conbody">Class is a collection of dta items along with their related functions of different kind referenced under one name.<br>
+                    <strong>Declaration:</strong> class tagname<br>
+                    { access specifier: <br>
+                    Type var ;  type function();  };<br>
+                    <strong>Access specifiers: </strong><br>
+                    Private: members of class can be accessed by member functions of same class only. It is default access specifier in c++.<br>
+                    Protected: members can be accessed by member functions of same and derieved class. <br>
+                    Public: members can be accessed by any functions of class or program outside the class. <br>
+                    <strong>Eg.</strong> class student<br>
+                    { char name[20];  int roll; <br>
+                    Public:   Void input();  void output();  };<br>
+                    <strong>Defining member functions: </strong><br>
+                    2 ways<br>
+                    <strong>Inside the class</strong><br>
+                    Class student<br>
+                    { public: void input()  { cin>>name>>roll;  }  };<br>
+                    <strong>Outside the class </strong> : type class :: function()<br>
+                    Void student :: output()<br>
+                    { cout<< name << roll ;  }<br>
+                    <strong>Objects of class</strong><br>
+                    Classname objname;   student s; <br>
+                    <strong>Accessing members</strong><br>
+                    Object.member-name;     s.inpuit();<br>
+                    </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse17" class="head">Inheritance</a>
+                  </h4>
+                </div>
+                <div id="collapse17" class="panel-collapse collapse">
+                  <div class="panel-body conbody"> 
+                    Ability of a class to inherit members of other class where class is either base or derieved class.<br>
+                    Types: 5 types of inheritance<br>
+                    1 single: one class derieved from a base class  A->B<br>
+                    2 multiple: one sub class inherits members from more base classes  A,b -> c<br>
+                    3. hierarchal: more than one sub classes are derieved from one base class  a-> b,c<br>
+                    4 multiple: a subclass is derieved from a class which is itself derieved from another class a->b->c<br>
+                    5 hybrid: combination of multiple and hierarchal a-> b,c ->d<br>
+                    <strong>Declaration:</strong>   class classname : visibility-mode  base-class<br>
+                    Visibility modes work same as access specifiers in class<br>
+                    Private: all members of base class become private in sub class<br>
+                    Protected: public and protected members of base class become protected<br>
+                    Public: all inherited members remain same access specified as in base class<br>
+                    Class b : public c { … };<br>
+                    </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse13" class="head">Some more concepts</a>
+                  </h4>
+                </div>
+                <div id="collapse13" class="panel-collapse collapse">
+                  <div class="panel-body conbody"><strong>Memory allocation</strong><br>
+                    <strong>Static allocation :</strong> when memory is allocated at compilation time and is already known beforehand.<br>
+                    Eg int a;  float f;<br>
+                    <strong>Dynamic allocation :</strong> when memory is not known beforehand and is allocated at the runtime. It saves the space in memory by allocation the necessary amount only.<br>
+                    Syntax:  datatype *variable = new datatype ;<br>
+                    Eg  int *a = new int;<br>
+                    For arrays:  int *a = new int[10];<br>
+                    Or  int n;  cin>>n;  <br>
+                     int *a= new int[n];<br>
+                    also the variable defined should be deleted at the end of program. It is not deleted by default and occupies the space even if program ends.<br>
+                    Delete a;<br>
+                    <strong>Typedef :</strong> it is a keyword used to create an alias name of existing datatypes.<br>
+                    Typedef old-name new-name;  <br>
+                    typedef int integer;  integer a;<br>
+                    <strong>macros:</strong>  ‘#define’ is used to create macros or shorthands for long expressions. It can also be used to create constants in the program.<br>
+                    #define pi 3.14<br>
+                    #define fun(a) cout<< a;<br>
+                    Void main()<br>
+                    { cout<< pi; fun(3);  }<br>
+                    Output: 3.14 3<br>
+                    <strong>Self referential structure :</strong> used in compound data structures, it is a structure where a member is a  pointer to the structure itself.<br>
+                    Eg struct stu {<br>
+                    Int r;  stu *p  }s,m;<br>
+                    s.r = 2;  m.r= 3;<br>
+                    s.p = & m;  m.p=NULL;<br>
+                    cout<< s.r<<  m.r << s.p->r;<br>
+                    output : 2 3 3<br>
+                    <strong>Working with arrays</strong><br>
+                      <strong>Searching: binary search<br></strong>
+                      Array sorted in ascending order<br>
+                      Void binsearch(int a[], int n, int x) <br>
+                      { int mid ,lb=0, ub=n-1; <br>
+                      While(lb<=ub) <br>
+                      {mid= (lb+ub)/2; <br>
+                      If(x==a[mid])  { cout<< “element at “<< mid+1;  break; }<br>
+                      Elseif (x>a[mid]) lb=mid+1; <br>
+                      Else ub=mid-1;  }<br>
+                      If (lb>ub)  cout<< ”not found”;   }<br>
+                      <strong>In descending order: </strong> <br>
+                      Void binsearch(int a[], int n, int x) <br>
+                      { int mid ,lb=0, ub=n-1; <br>
+                      While(lb<=ub) <br>
+                      {mid= (lb+ub)/2; <br>
+                      If(x==a[mid])  { cout<< “element at “<< mid+1;  break; }<br>
+                      Elseif (x<a[mid])<span></span> lb=mid+1; <br>
+                      Else ub=mid-1;  }<br>
+                      If (lb>ub)  cout<< d not found d;   }<br>
+                      <strong>Sorting</strong><br>
+                      <strong>Selection: </strong><br>
+                      Void ssort(int a[], int n) <br>
+                      {int min,t,p; <br>
+                      For(int i=0; i<n-1;<span></span> i++)<br>
+                      {min= a[i];  p=I; <br>
+                      For(int j=i+; j<n;<span></span> j++)<br>
+                      If(a[j]<min) <span> {min=a[j];   p=j;  }<br>
+                      T=a[i];  a[i]=min;  a[p]=t; }  }<br>
+                      <strong>Bubble: </strong> <br>
+                      Void bsort(int a[], int n) <br>
+                      {int I,j,t; <br>
+                      For( I = n-1; i>=0; i--)<br>
+                      {  for(j=0; j<I;<span></span> j++)<br>
+                      If (a[j]>a[j+1]) {  t=a[j];   a[j]=a[j+1];   a[j+1]=t; }<br>
+                      }}<br>
+                      <strong>Insertion: </strong><br>
+                      Void isort(int a[], int n) <br>
+                      { for(int i=1; i<n-1;<span></span> i++)<br>
+                      { j=i-1;   t=a[i]; <br>
+                      While( t<a[j]&& <span>j>=0) <br>
+                      { a[j+1]=a[j];  j--;}<br>
+                      A[j+1] = t; }}<br>
+                      <strong>Deletion: </strong><br>
+                      Void delet(int a[], int n, int x) <br>
+                      { for(int i=0; i<n;<span></span> i++)<br>
+                      If(x==a[i]) { n--;  <br>
+                      For(int j=I; j<n; <span>j++)<br>
+                      [j]=a[j+1];   <br>
+                      i--;  }}<br>
+                      <strong>Merge sort: merging sorted arrays</strong><br>
+                      Void merge(nt a[], int b[], int c[], int m, int n) <br>
+                      { for int i=0,j=0,k=0; i<m&&j<n; <span></span>k++)<br>
+                      {if ( a[i]<b[j]) <span> c[k]= a[i++];<br>
+                      Else  c[k]= b[j++];  }<br>
+                      While(i<m) <span> c[k++]= a[i++];<br>
+                      While(j<n)  <span> c[k++]= b[j++];  } <br>
+                      
+                      <strong>Procedural programming </strong> : all data remains global and is divided into procedures or functions. <br>
+                      Eg C , basic , cobol etc<br>
+                      <strong>Object oriented programming </strong>: data remains hidden and program is divided into objects which are collection of data members. <br>
+                      Eg  C++ , java<br>
+                      <strong>Oop concepts: </strong><br>
+                      <strong>Abstraction : </strong>it means hiding background details and explanation using classes and displaying only essential members of program. Private and protected members are hidden while public are displayed. <br>
+                      <strong>Encapsulation: </strong> it means grouping data and functions into single unit with the help of classes. <br>
+                      <strong>Polymorphism: </strong>ability of a message to be displayed in more than one form. Done by function overloading. <br>
+                      <strong>Overloading: </strong>process of defining functions with same name but difference in number and type of aruments supplied. <br>
+                      Void area();    fun 1<br>
+                      Void area(int a);    fun 2<br>
+                      Void area(int a, float b);    fun 3<br>
+                      Void main()<br>
+                      { area();     calls fun1<br>
+                      Area(3);	calls fun2<br>
+                      Area(5,4.3);  }      calls fun3<br>
+                      
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse14" class="head">Standard library and Functions</a>
+                  </h4>
+                </div>
+                <div id="collapse14" class="panel-collapse collapse">
+                  <div class="panel-body conbody">Standard library and functions:<br>
+                    <strong>Iostream.h :</strong> standard library for c++<br>
+                      Cin and cout are objects of iostream class in iostream.h<br>
+                      Get(): input single character as  cin.get(var) <br>
+                      Put: output single character as cout.put(var); <br>
+                      Getline(): input a string upto a specific delimiter as  char s[80];  <br> cin.getline(s, 80, ‘.’) it stops reading when ‘.’ Dot is reached. <br>
+                      Write(): print specific number of characters  write(“welcome”,4); prints welc<br>
+                    <strong>Stdio.h :</strong><br>
+                    Scanf/printf  as discussed earlier<br>
+                    Gets(): input string as ‘gets(string-variable);’ <br>
+                    Puts(): output a string with new line at the end as ‘ puts(“string”); ‘<br>
+                    Getchar(): input single character as ‘ a=getchar(); ‘<br>
+                    Putchar : output single character as ‘putchar(‘A’); ‘<br>
+                    <strong>Conio.h</strong><br>
+                    Clrscr() : clears the screen<br>
+                    Getch(): input charcter that is not echoed or displayed as a=getch(); . also used to stop output screen after runtime. <br>
+                    Gotoxy(): move to certain place on screen using coordinates<br>
+                    Textcolor(BLUE): set text color given in capital letters<br>
+                    Cprintf() : used as printf and generate formatted output<br>
+                    <strong>Math.h</strong><br>
+                    Abs(var): generate absolute value or modulus<br>
+                    Sqrt() : square root of given number<br>
+                    Pow(): power function pow(2,3) is as 2^3<br>
+                    Sin/tan/cos: trigonometric values of angles supplied<br>
+                    Asin/atan/acos: inverse trigonometric values<br>
+                    Ceil(): round off to nearest greater integer ceil(5.3) = 6<br>
+                    Floar(): round off to nearest lower integer<br>
+                    <strong>String.h</strong><br>
+                    Strlen(): length of a string strlen(“hello”) returns 5<br>
+                    Strcpy(): copy one string to another strcpy(str1,str2) where str1 is copied to str2<br>
+                    Strcat(): join 2 strings strcat(str1,str2) where str2 is joined at the end of str1<br>
+                    Strcmp(): compare two strings and return 0 if equal, return integer>0 if str1 is greater than str 2 and return integer<1 for opposite. Strings are matched using ascii codes. <br><br>
+                    Strcmpi(): compare strings ignoring the case<br>
+                    Strrev(): produce reversed string  (let c=abc)  then strrev(s) gives  cba<br>
+                    Strlwr/strupr: change the case of supplied string. <br>
+                    <strong>Ctype.h</strong><br>
+                    Islower(): return1 if character is lowercase<br>
+                    Isupper(): return1 if character is uppercase<br>
+                    Isdigit()/isalpha()/isalnum() : check if variable is a digit or alphabet or alpha numeric respectively<br>
+                    Isspace(): checks if character is a space <br>
+                    Tolower() / toupper() : convert a character to lower or upper case<br>
+                    <strong>Iomanip.h</strong><br>
+                    Endl(): end the line and print new line<br>
+                    Setw(): set width of column for alignment in output<br>
+                    Cout<<setw(20)<<”name”;<br>
+                    Cout<<setw(20)<<”suresh”;<br>
+                    Setpricision(): set precision for output of decimal values<br>
+                    <strong>Stdlib.h</strong><br>
+                    Randomize(): initiates random function<br>
+                    Random(): generate a random number between 0 to n-1  random(10) gives any number from 0 to 9<br>
+                    Atoi / itoa / ltoa / ftoa / atof / atoll : convert type where a=alphabet strings  i=integer  l=long  f=float<br>
+                    <strong>Dos.h</strong><br>
+                    Sound(): produce sound in frequency  sound(100) sound of 100hz<br>
+                    Nosound(): gives no sound<br>
+                    Delay(): delay the screen delay(1000) for 1 second<br>
+
+                    
+                   </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse15" class="head">Practise Questions</a>
+                  </h4>
+                </div>
+                <div id="collapse15" class="panel-collapse collapse">
+                  <div class="panel-body conbody"><strong>q1. program to input radius and compute area and circumference of circle</strong><br>
+                    #include<iostream.h><br>
+                    void main()<br>
+                    {  int r;  float c,a; <br>
+                    cout<<< d enter radius :d;  cin>>r; <br>
+                    c=2*3.14*r; <br>
+                    a=3.14*r*r; <br>
+                    cout<<< “area=”<< a <<d circumference = d<< c;  }<br>
+                    <strong>q2. program to input a number and find if it is odd or even</strong><br>
+                    void main()<br>
+                    { int n;  cin>>n; <br>
+                    if(n%2==0)  cout<< d even d; <br>
+                    else  cout<< d odd d;  }<br>
+                    <strong>q3. input a character and convert it to reverse case</strong><br>
+                    void main()<br>
+                    { char c;  cin>>c; <br>
+                    if(isupper(c)) cout<< tolower(c); <br>
+                    else  cout<< toupper(c);  }<br>
+                    <strong>q4. input a lower case alphabet and check if it is a vowel or consonant</strong><br>
+                    void main()<br>
+                    { char c;  cin>>c; <br>
+                    switch(c) <br>
+                    { case a : cout<< d vowel d; break; <br>
+                    case e: cout<< d vowel d; break; <br>
+                    case i: cout<< d vowel d; break; <br>
+                    case o: cout<< d vowel d; break; <br>
+                    case u: cout<< d vowel d; break;<br>
+                    default:  cout<< ”consonant”;}  }<br>
+                    <strong>q5. program to print even numbers from 50 to 10. </strong><br>
+                    void main() {<br>
+                    int a;<br>
+                    for( a=50; a>=10; a-=2)<br>
+                     cout<< a<< endl;  }<br><br>
+                    <strong>q6. program to input a number and print its factorial</strong><br>
+                    void main()<br>
+                    { int n;  cin>>n;  long f=1;<br>
+                    for (int i=2; i<=n; i++)<br>
+                    f *= i;<br>
+                    cout<< f;  }<br>
+                    <strong>q7. program to input 10 characters and count how many are alphabts , digits and others</strong><br>
+                    void main() <br>
+                    {  char c;<br>
+                    for(int i=0; i<10; <span>i++ )<br>
+                    { cin>>c;<br>
+                    if(isalpha(c)) cout<< d alphabet d;<br>
+                    elseif (isdigit(c))  cout<< d digit d;<br>
+                    else cout<< d other d;  }  }<br>
+                    <strong>q8. program to input a number and print its reverse ( 123 gives 321) </strong><br>
+                    void main()<br>
+                    { int n;  cin>>n;<br>
+                    while(n!=0)<br>
+                    { b=n%10;  n /= 10;<br>
+                    r=r*10 + b;}<br>
+                    cout<< r;  }<br>
+                    <strong>q9. input two strings and append shorter one to bigger one</strong><br>
+                    void main()<br>
+                    { char a[50],b[50];<br>
+                    gets(a); gets(b);<br>
+                    if(strlen(a)<strlen(b))<span></span><br>
+                    strcat(b,a);<br>
+                    else strcat(a,b);  }<br>
+                     <strong> q10. input a sentence and print number of words in it</strong><br>
+                    void main()<br>
+                    { char a[100];  int c=0;   gets(a);<br>
+                    for(int i=0; i<strlen(a);<span></span> i++)<br>
+                    { if(isspace(a[i]) )<br>
+                    c++; }<br>
+                    cout<< c;  }<br>
+                    <strong>q11. input 2d  integer array of mxn and swap the values of first and last row. </strong> <br>
+                    void main()<br>
+                    { int a[100][100] , m,n, c=0 ;  cin>>m>>n;<br>
+                    for(int i=0; i<m;<span></span> i++)<br>
+                    for(int j=0; j<n;<span></span> j++)<br>
+                    cin>>a[i][j];<br>
+                    for(j=0; j<n;<span></span> j++)<br>
+                    {  c= a[0][j];<br>
+                    a[0][j] = a[m-1][j];<br>
+                    a[m-1][j]= c;  }<br>
+                    for(int i=0; i<m; <span>i++)<br>
+                    for(int j=0; j<n;<span></span> j++ )<br>
+                    cout<< a[i][j];  }<br>
+                    <strong>q12. input an integer array and print the repeated element, no. of times repeated and last index of repeated one.  eg  12 30 24 30 30 36   gives  30 3 4</strong><br>
+                    void main() <br>
+                    { int a[20] , n,c;   cin>.n;<br>
+                    for(int i=0; i<n;<span></span> i++)<br>
+                    cin>>a[i];<br>
+                    for(i=0; i<n-1;<span></span> i++)<br>
+                    { c=0;<br>
+                    for(int j=i+1; j<n;<span></span> j++)<br>
+                    {  if( a[i] ==a[j] )<br>
+                    { c++;  p=j;  }  }<br>
+                    if(c>0) cout<< a[i] << c+1 << p;  }  }<br>
+                    <strong>q13. define a function cbrt() to return cuberoot of any number</strong><br>
+                    double cbrt( int n)<br>
+                    { return pow(n,1/3.0);  }<br>
+                    <strong>q14. define a function to take array as argument and return largest integer in it</strong><br>
+                    int max( int a[], int n)<br>
+                    { int m= a[0];<br>
+                    for(int i=1; i<n;<span></span> i++)<br>
+                    if(a[i] > m)<br>
+                    m=a[i];<br>
+                    return m;  }<br>
+                    void main()<br>
+                    { int arr[] = { 2, 3, 1, 6, 5 };<br>
+                    cout<< max(arr,5);  }<br>
+                    <strong>q15. program to store details name id and salary of n employees and display details of those whose salary is greater than 50k. </strong> <br>
+                    struct employee<br>
+                    { int id; char name[100];<br>
+                    long sal;  }emp[100];<br>
+                    void main()<br>
+                    { int n;  cin>>n;<br>
+                    for(int i=0; i<n; <span>i++)<br>
+                    { gets(emp[i].name);<br>
+                     cin>>emp[i].id>>emp[i].sal;  }<br>
+                    for(i=0; i<n; <span>i++)<br>
+                    {  if(emp[i].sal> 50000)<br>
+                    cout<< emp[i].name << emp[i].id << emp[i].sal; }<br>
+                    }<br>
+                    <strong>q16. program to input 2 complex nos ( as a+ib where a and b are input) and define functions to calculate and return sum and difference of those using structures. </strong> <br>
+                    struct complex <br>
+                    { int r,i; };<br>
+                    complex add(complex a, complex b)<br>
+                    { comple c;<br>
+                    c.r=a.r+b.r;<br>
+                    c.i=a.i+b.i;<br>
+                    return c;  }<br>
+                    complex minus(complex a, complex b)<br>
+                    { comple c;<br>
+                    c.r=a.r-b.r;<br>
+                    c.i=a.i-b.i;<br>
+                    return c;  }<br>
+                    void main()<br>
+                    { complex a,b,x,y;<br>
+                    cin>>a.r>>a.i;<br>
+                    cin>>b.r>>b.i;<br>
+                    x=add(a,b);  y=minus(a,b);<br>
+                    cout<< x.r << ”+i” << x.i;<br>
+                    cout<< y.r << ”-i” << y.i; } <br>
+                    
+                    </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse18" class="head">Unsolved Practise</a>
+                  </h4>
+                </div>
+                <div id="collapse18" class="panel-collapse collapse">
+                  <div class="panel-body lastbody">Q write a program to read coefficients of quadratic equation and give its solution if possible  ax^2 + bx + c  where a, b, c are input integers.<br>
+                    Q write a program to compute area of any one of circle , square and rectangle on user choice using function area() where side , l , b are integers and radius is float or decimal<br>
+                    Q write a program to input an integer and print sum of its digits (123 gives 6) <br>
+                    Q read a string and check if it a palindrome<br>
+                    Q display all prime factors of the input number<br>
+                    Q Program to display all prime Fibonacci series members till n ( 2 3 5 13  …)<br>
+                    Q input a full name and print initials of first name and middle name and full last name as: ayush kumar shukla : a. s. shukla<br>
+                    Q input an integer array of size n and display smallest odd and smallest even number<br>
+                    Q input a string and print each word on new line<br>
+                    Q input a string and print number of times word ‘the’ appears<br>
+                    Q input an integer array and swap first half with next half ( 1 2 3 4 5 6 : 4 5 6 1 2 3) <br>
+                    Q define a structure to store country name, capital and population and at last, any one capital name. Print details of that country whose capital name matches last input. <br>
+                    Q define a class clock as: private( hours and minutes) , public( readtime() and showtime() and addtime() functions to input time, output time and add two times taking arguments of clock type. <br>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div> 
+      </div>
+
+</body>
+</html>

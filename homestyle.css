@@ -1,0 +1,214 @@
+*{margin:0;
+    padding: 0;}
+body {
+    background-color: snow;
+}
+.top1 {
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: left;
+    margin: 10px 100px 10px 200px;
+    padding:5px; 
+    border-radius: 5px;
+    text-transform: capitalize;
+    animation:animate 2s;
+}
+.list {
+    background-color: #FEE140;
+background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+}
+.planlist{
+    text-emphasis:italic;
+    color: rgba(0, 0, 0, 1);
+    line-height: 1.2em;
+    word-spacing: 5px;
+    font-family: geneva;
+    font-size: 22px;
+    font-variant: small-caps;
+    list-style-type: disc;
+    padding: 5px;
+    margin: 5px 10px 10px 30px;
+}
+h3 {
+    color: firebrick;
+    margin: 10px 10px 0px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 700;
+    line-height: 1.8;
+    text-shadow: rgb(226, 245, 144);
+    margin-bottom: 7px;
+}
+.plan {
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-right: 30px;
+    padding:5px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    animation: animateplan 2.5s;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+}
+.basic {
+    text-transform: capitalize;
+    color: black;
+    background-color: rgb(92, 190, 230);
+}
+.premium {
+    text-transform: capitalize;
+    color: black;
+    background-color: rgb(92, 190, 230);
+}
+.about {
+    background-color:rgb(255, 190, 118);;
+
+    margin: 20px 30px 20px 30px;
+    text-align: justify;
+    font-family: cursive;
+    font-size: large;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 1.4em;
+    word-spacing: 0.4em;
+    color:black;
+}
+footer {
+    margin-top: 8px;
+}
+#contact {
+    text-transform: capitalize;
+    padding: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: medium;
+    border-radius: 5px;
+    line-height: 1.5em;
+    background-color:#282c35;
+}
+.detail {
+    margin : 20px 10px 5px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-transform: capitalize;
+    padding: 5px;
+    line-height: 1.4em;
+    word-spacing: 0.3em;
+}
+.fa {
+    padding: 15px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+      background-color: red;
+  }
+  
+.fa-facebook {
+    background: #ebedf100;
+    color: rgb(86, 83, 243);
+  }
+  
+.fa-linkedin {
+    background: #f8fcfc00;
+    color: rgb(101, 171, 250);
+  }
+  
+.fa-instagram {
+    background: #f1eeee00;
+    color: rgb(243, 50, 50);
+  }
+.fa-github {
+    background: #f5f2f200;
+    color: rgb(251, 252, 249);
+  }
+.fa-whatsapp {
+    background: #f3eeee00;
+    color: rgb(32, 228, 97);
+}
+#lastline {
+    opacity: 0.8;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 10px 2px 10px;
+}
+hr {
+    text-align:center;
+    color: slategrey;
+    width:90%;
+    margin:0px 30px 0px 30px;
+    
+}
+a:link{
+    text-decoration: none;
+    
+ }
+a:visited{
+    
+    text-decoration: none;
+    
+}
+a:hover{
+    color: darksalmon;
+}
+a:active{
+    color: rgb(18, 221, 69);
+}
+@keyframes animate {
+    from {
+        opacity :0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@keyframes animateplan {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    70% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;;
+    }
+}
+@media (max-width:500px) {
+    .top1 {
+        margin: 10px 25px 15px 25px;
+        font-size: medium;
+        font-weight: 600;
+    } 
+    .plan {
+        margin: 5px 25px 10px 25px;
+    }
+  
+}
+@media (max-width:800px) and (min-width:501px) {
+    .top1 {
+        margin: 10px 25px 15px 25px;
+        font-size: large;
+        font-weight: 600;
+    } 
+    .plan {
+        margin: 5px 25px 10px 25px;
+    }
+  
+}

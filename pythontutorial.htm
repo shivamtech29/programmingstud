@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+            PROGRAMMING TUTORIALS
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="slidestyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header active">
+            <a class="navbar-brand active" href="index.htm">programming stud</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#" class="active">python tutorial</a></li>
+            <li><a href="tut.htm">basic plan</a></li>
+           <li><a href="registerform.php">join us</a></li>
+            <li><a href="ask.php">Ask for premium</a></li>
+            <li><a href="gopremium.php">go premium now</a></li>
+			
+          </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h2>welcome to python tutorial</h2>
+        <p class="note"><strong>Note:</strong> this tutorial includes theory as well as examples for better understandings. please read the concepts and understand them first and then do solve the examples and problems listed to sharpen your skills. try premium plan for more advanced and practical content. we wish you happy coding. if you find the letter d written, it means a double quote. the browser may not be able to display double quote some times. </p>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="head">Introduction to Python</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+              <div class="panel-body lastbody">Python is one of the most powerful programming languages. It was created by guido van rossum in 1991. It is mainly used in web development, software and system scripting and complex mathematical programming. New and ambitious fields like machine learning and data science utilize python for complex mathematics. It uses new line for statements and white spaces for indentation.<br></div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="head">Getting Started with Python</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body lastbody">
+                Python programs can be run on various platforms called IDEs . Best ide for python include idle , pycharm , vscode among others. all these ides are availible online and can be downloaded for python.<br><br>
+                Hello world:  print(“hello world”) <br>
+                Python uses spaces for indentation and blocks  rather than punctuators. <br>
+                <strong>Comments: </strong> these are the statements which can be ignored by interpreter of python in a program and are used to tell what the program is doing. Python uses ‘#’ or hash symbol for single line comments and triple douible quotes ‘ “”” ‘ for multi line comments. <br>
+                #this is a comment<br>
+                ddd this is a <br>
+                Multiline comment ddd<br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="head">Variables</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body lastbody"><strong>Variables : </strong>These are the name given to any memory location so that data stored there can be accessed. No variable declaration is required and variables can be directly used in the program. Variables are automatically created of the type that is the type of data entered in it. <br>
+                x=5<br>
+                y=”hello” <br>
+                print(x) <br>
+                print(y) <br>
+                Output: 5hello<br>
+                If variables are overwritten in a program then it changes both – value and type of variable<br>
+                x=5   here x is integer type<br>
+                x=”world”    now x becomes string type<br>
+                Also, string variables can be assigned values either by double or by single quotes.  “john” is same as ‘john’. <br>
+                Variables can be assigned multiple together<br>
+                x,y,z= “orange” , “blue” , “red” <br>
+                  where x gets orange, y gets blue and z gets red<br>
+                x,y,z=”orange”  here all 3 get orange<br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="head">Output in python</a>
+              </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+              <div class="panel-body lastbody">print command<br>
+                multiple strings can be printed at the same time using ‘+’ plus operator<br>
+                x= ‘hello’<br>
+                print(d hello d + x) <br>
+                y=  x+ d world d <br>
+                print(y) <br>
+                here y becomes ‘hello world’
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="head">Operators</a>
+              </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+              <div class="panel-body lastbody"><strong>operators: </strong>Symbols used to perform operation on numbers in a program<br>
+                arithmetic operators: + ,- , * , / , % , ** , //<br>
+                + - * / are used for addition, subtraction, multiplication and division while % is used for getting remainder after division. ** is used for exponent and // is used to round off after division. <br>
+                Comparison: <, >, ==, >=, <=, != re used to chech and compare values. <br>
+                == checks equality between values while = is used to assign value to variable<br>
+                Logical: used to combine more than one condition in a statement <br>
+                And , or , not : and returns true if both conditions are true. Or returns true if any condition is true. Not is used to reverse the answer of expression<br>
+                Eg  a>b and a>c<br>
+                Membership : in , not in   (return true or false) <br>
+                Eg x=[“apple” , “banana”] <br>
+                if(d banana d in x)  print(“yes”) <br>
+                This checks if string ”banana” is present in list x and prints yes <br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="head">Datatypes</a>
+              </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse">
+              <div class="panel-body lastbody"><strong>Datatypes in python: </strong><br>
+                numeric : int float complex<br>
+                sequence : list tuple range<br>
+                set : set frozenset<br>
+                Boolean : bool<br>
+                Binary: bytes bytearray<br>
+                Mapping: dict<br>
+                Datatype of variable can be known by type function. As print(type(x)) <br>
+                <strong>Details : </strong>strong><br>
+                Int : 1,2, -3 all integers of any range are allowed in python int type<br>
+                Float : uses any decimal point number of any range. ‘e’ can be used to identify exponent as <br>
+                z= 87.7e03  means 87.7 x 10^3<br>
+                Complex: written with j as complex type<br>
+                x= 3+ 5j<br>
+                <strong>Type conversion: </strong>strong>converting type of variable to another type<br>
+                Eg  x=5<br>
+                y=complex(x) <br>
+                Print(y) <br>
+                Gives 5 + 0j<br>
+                <strong>Random number: </strong>strong> selecting any random number for an operation. Can be done using builtin moule random (discussed later) <br>
+                import random<br>
+                x=random.randrange(1,10) <br>
+                print(x) <br>
+                x here is any number from 1 to 9 or from start value to endvalue-1<br>
+                <strong>String types: </strong>strong>can be stored in variable by single or double quotes. Each element can be accessed as array with [index] starting from 0. <br>
+                a=”hello world” <br>
+                print(a[4])   gives ‘o’<br>
+                For printing a range of characters, uise [start-index : end-index-1] <br>
+                print( a[2:5])   gives ‘llo’<br>
+                Length of string: use len() function<br>
+                print( Len(a) )   gives 11<br>
+                <strong>Strings built in functions</strong>strong><br>
+                strip() : remove whitespace from beginning as  ‘a.strip()’ <br>
+                lower(): convert to lower case as ‘a.lower()’ <br>
+                upper(): convert to upper case<br>
+                replace(): replace part of string with another string as print(a.replace(“h”,”j”))   gives ‘jello world’<br>
+                split(): split the string on finding a separator and form a list of split strings<br>
+                print(a.split(“ “)  which splits on finding space gives [‘hello’ , ‘world’ ] <br>
+                capitalize(): convert first character of word to uppercase a.capitalize()<br>
+                count(): counts number of times a value appears ina string a.count(“o”)  gives 2<br>
+                expndtabs(): used to increase spaces between letters of string a.expandtabs(2) <br>
+                find(): search a given value and position   a.find(“l”) <br>
+                format(): fill up the placeholder later after writing the string as<br>
+                txt = d hello {name}.format(name=”ajay”) d <br>
+                Empty brackets, brackets with numbers or names can be used to assign values at multiple places in a string<br>
+                isalnum() / isalpha() / isdigit() / islower() / isupper() / isnumeric() / isspace() gives true or false if character is as the function used otherwise false for alpha-numeric , alphabets, digits , lowercase, uppercase or space characters<br>
+                partition(): divide the string in 3 parts a.partition(“ “) gives[‘hello’, ‘ ‘ , ‘world’] <br>
+                swapcase() : to swap the whole case<br>
+                For using string with number, use format<br>
+                x= d my age is {} d<br>
+                print(x.format(35))  gives my age is 35<br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="head">Sequence datatypes</a>
+              </h4>
+            </div>
+            <div id="collapse7" class="panel-collapse collapse">
+              <div class="panel-body lastbody"><strong>List: </strong> closed in square brackets []<br>
+                Eg tlist= [ “Volvo” , “bmw” ] <br>
+                print (tlist)  gives [ “Volvo” , “bmw” ] <br>
+                Index can be used to access elements<br>
+                Loop in list:  <br>
+                for x in tlist<br>
+                print(x)  gives each element in new line<br>
+                len() : used to find number of elements<br>
+                 append(): add item to list tlist.append(“audi”) <br>
+                insert(): insert element to a position  tlist.insert(1,”tesla”) inserts at 2nd place<br>
+                pop(): remove last item tlist.pop()<br>
+                remove(): remove an element  tlist.remove(“bmw”) <br>
+                copy(): copy a list without reference  list2=tlist.copy()  or list2= list( tlist) <br>
+                clear(): remaove all elements tlist.remove()<br>
+                reverse(): reverse the order of elements tlist.reverse()<br>
+                sort(): sort the list tlist.sort()  sorts in asc order<br>
+                For desc order use tlist.sort(reverse=true) <br>
+                Use key to sort according to a function<br>
+                let myfun return length of string<br>
+                tlist.sort(key= myfun)   sorts list according to length<br>
+                <strong>Tuple: </strong>unchangeable<br>
+                Almost same as lists but after creation, no change in items is allowed in tuple. Rather, whole tuple can be deleted by del().<br>
+                ttuple = (“apple” , “banana”) <br>
+                Two tuples can be joined by ‘+’ operator<br>
+                <strong>Set : </strong> unordered<br>
+                tset ={“nasa” , “isro” , “jaxa” }<br>
+                Enclosed in { } and are not indexed and elements can be accessed by ‘in’ or loop.new values can be added<br>
+                add(): tset.add(“spacex”) <br>
+                update(): updating existing values tset.update<br>
+                len(): obtain length<br>
+                remove() and pop() same as list<br>
+                discard(): removing items and does not give error if item not exists  tset.discard(“isro”) <br>
+                union: join sets  set3 = set1.union(set2)  or by update as  set1.updte(set2) <br>
+                intersection() or intersection_update(): give intersection of sets as set1.intersection(set2) <br>
+                difference() or difference_update(): gives difference of sets as set1.difference(set2) <br>
+                symmetric_difference() x.symmetric_difference(y) gives [(x-union-y) difference (x-intersection-y)] <br>
+                <strong>Dictionaries: dict</strong><br>
+                Curly braces and colon<br>
+                tdict = { “brand” : “tesla”, <br>
+                “model”: “roadster”,  “year” : 2020 }<br>
+                Accessing items:  x=tdict[“model”]  or x=tdict.get(“model”)  gives roadster<br>
+                Tdict[“year”]= 2019  for changing values<br>
+                Output values: 3 ways<br>
+                1 print values only<br>
+                for x in tdict.values():<br>
+                ...print(x) <br>
+                2 print keys only<br>
+                for x in tdict.keys():<br>
+                3 print both<br>
+                for x in tdict.items():<br>
+                Adding items:   tdict[“color”] =”red” <br>
+                Removing: tdict.pop(“model”)  or del tdict[“model”] <br>
+                For last item use tdict.popitem()<br>
+                clear() to empty the dictionary<br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse8" class="head">Selection construct: </a>
+              </h4>
+            </div>
+            <div id="collapse8" class="panel-collapse collapse">
+              <div class="panel-body lastbody"><strong>Selection construct: </strong> if else<br>
+                If.. else.. : <br>
+                Conditions can be checked and statements are executed on the basis of result of it. <br>
+                a=33<br>
+                b=21<br>
+                if a>b<br>
+                ...print(”yes”) <br>
+                Prints yes because 33>21<br>
+                Else can be used to run state,ments if condition is false<br>
+                Also, elif can be used to check multiple conditions at once<br>
+                if a>b : <br>
+                ...print(a) <br>
+                elif a==b : <br>
+                ...print(d both d) <br>
+                else : <br>
+                ...print(b) <br>
+                and / or can be used to check multiple conditions in if<br>
+                if a>b or a==31<br>
+                ...print(d yes d) <br>
+                Nested if: multiple if statements inside an if statements which are indented by white spaces<br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse9" class="head">Iteration construct: </a>
+              </h4>
+            </div>
+            <div id="collapse9" class="panel-collapse collapse">
+              <div class="panel-body lastbody"><strong>Iteration construct: </strong> loops<br>
+                Executing statements multiple times on the basis of a condition supplied<br>
+                while: <br>
+                i=1<br>
+                while i<6: <br><br>
+                   ...print(i) <br>
+                   ...i+=1<br>
+                ‘else’ can be used after while loop to execute statements when loop terminates or condition become false. <br>
+                For:  no indexing is required here<br>
+                for x in list1 : <br>
+                   ...print(x) <br>
+                Terminating loop: break keyword can be used to terminate the loop at a certain condition inside the loop<br>
+                range(): for looping a number of times use range(int)  where loop is executed int-1 times<br>
+                for x in range(6)   from 0 to 5<br>
+                for x in range(2,6)   from 2 to 5<br>
+                for x in range(1,7,2)   from 1 to 7 as 1 3 5 7 (gap of 2) <br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse10" class="head">Functions</a>
+              </h4>
+            </div>
+            <div id="collapse10" class="panel-collapse collapse">
+              <div class="panel-body lastbody">These are the set of program statements which can be called from anywhere and perform certain operations<br>
+                def keyword is used to define functions and are called by function name<br>
+                def fun() : <br>
+                    ...print(“hello”) <br>
+                fun()<br>
+                Program calls fun() and goes to function in the program and then execute the statements written in the function with proper indent<br>
+                <strong>Parameters: </strong>these are the values supplied to the function on call<br>
+                def myfun(fname): <br>
+                    ...print(d hello d + fname) <br>
+                fun(“ajay”) <br>
+                prints ‘hello ajay’<br>
+                List, tuples, dict all can be passes to function as parameters<br>
+                <strong>Return: </strong>functions can return a value after operation rather than just printing it using the ‘return’ keyword<br>
+                def myfun(x,y): <br>
+                    ...return x*y<br>
+                z=myfun(2,3) <br>
+                print(z) <br>
+                prints 6<br>
+                For unknown number of parameters, use tuples with asterisk ‘*’ <br>
+                def fun2(*kids): <br>
+                   ...print(“youngest is ” + kids[1]) <br>
+                fun2(d ayush d , d ajay d, d abishek d) <br>
+                Prints ‘youngest is ajay’<br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse11" class="head">Recursion</a>
+              </h4>
+            </div>
+            <div id="collapse11" class="panel-collapse collapse">
+              <div class="panel-body lastbody"><strong>Recursion</strong><br>
+                When a function calls itself multiple times then it is called recurson<br>
+                def fact(n): <br>
+                   ...if n==1 : return 1 <br>
+                   ...else : x= n*fact(n-1) return x<br>
+                print(fact(4)) <br>
+                Print 24 as… n becomes 4 in fact function which comes to else and calls itself once again now n becomes 3 and the process repeats until n becomes 1 and all those values keep multiplying in x which means x is multiplied to 4 ,3 2 and is returned<br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse12" class="head">Lambda function</a>
+              </h4>
+            </div>
+            <div id="collapse12" class="panel-collapse collapse">
+              <div class="panel-body lastbody">Single statement function and one expression but can have any number of parameters<br>
+                Lambda arguments : expression<br>
+                x= lambda a,b : a*b<br>
+                Print(x(5,6)) <br>
+                Prints 30 as… x is a lambda function which takes 2 arguments a and b and returns their multiplication. When x is supplied values 5 and 6 it returns 5x6 and prints 30<br>
+                Using lambda inside other functions: <br>
+                def fun(n): <br>
+                   ...return lambda a: a*n<br>
+                myvar=fun(2) <br>
+                print(myvar(11)) <br>
+                Prints 2 as… fun return a multiplication of supplied arg n nd a lambda arg a. myvar calls fun with argument 2 and later in print statement it provides argument 11 to lambda expression to be multiplied<br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse13" class="head">Classes</a>
+              </h4>
+            </div>
+            <div id="collapse13" class="panel-collapse collapse">
+              <div class="panel-body lastbody">class in python<br>
+                class myclass : <br>
+                    ...x=5<br>
+                Used to group variables and functions. The elements can be accessed by objects declared in the program with dot operator<br>
+                p=myclass()<br>
+                print(p.x) <br>
+                prints 5<br>
+                <strong>__init__(self) : </strong> this is automatically initiated and is builtin. It is used to assign the values to the object of class<br>
+                def __init__(self,name,age): <br>
+                   ...self.name=name<br>
+                   ...self.age=age<br>
+                p= person(“john”,35) <br>
+                print(p.name) <br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse14" class="head">Modules and libraries</a>
+              </h4>
+            </div>
+            <div id="collapse14" class="panel-collapse collapse">
+              <div class="panel-body lastbody">These are the builtin libraries of python which include functions for the ease of programming. User defined modules can be created as python programs saved with extension .py and included in the same way<br>
+                To include a module use<strong> import mod-name</strong><br>
+                import platform<br>
+                x=platform.system()<br>
+                print(x) <br>
+                Prints the system you are using windows/linux/osx/unix<br>
+                To see all functions of a module use dir<br>
+                print(dir(platform)) <br>
+                <strong>date time module: </strong>  import datetime<br>
+                x=datetime.datetime.now()<br>
+                print(x) <br>
+                Prints format : yyyy-mm-dd hh-mm-ss. Uuuuuu    where u is decimal place of second till microsecond<br>
+                For formatted output use strftime()<br>
+                Print(x.strftime(d %a d)  forweekday in short eg wed<br>
+                %a %A %w : weekdays wed Wednesday 3<br>
+                %b %B %m : month dec december 12<br>
+                %d : day 1 to 31<br>
+                %y %Y : year 20 2020<br>
+                %H %I : hour 0-23  0-12<br>
+                %p: am/pm<br>
+                %M %S : minutes seconds<br>
+                %U: week number1 to 53<br>
+                %c: date and time <br>
+                %X %x : time date<br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse15" class="head">Inputs in python</a>
+              </h4>
+            </div>
+            <div id="collapse15" class="panel-collapse collapse">
+              <div class="panel-body lastbody">Input in python: input()<br>
+                X=input() in new versions<br>
+                X=raw_input()  in older versions<br>
+                X=input(“enter a value”)  to print a command along with input<br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse16" class="head">File Handling</a>
+              </h4>
+            </div>
+            <div id="collapse16" class="panel-collapse collapse">
+              <div class="panel-body lastbody">File handling<br>
+                <strong>Open file:  </strong>f=  open(“demofile.txt”,”r”) <br>
+                r in read mode and w in write mode<br>
+                <strong>Read file: </strong> print(f.read)   print(f.readline) <br>
+                All line:  for x in f : print(x) <br>
+                <strong>Close file:   </strong>f.close()<br>
+                <strong>Writing on files</strong>: f= open(“file.txt” , “w”) or use “a” for appending data<br>
+                f.write(“hello”) <br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse17" class="head">Some More concepts</a>
+              </h4>
+            </div>
+            <div id="collapse17" class="panel-collapse collapse">
+              <div class="panel-body lastbody"><strong>Mapping: </strong> when we need to perform an operation on whole list of values, mapping is used<br>
+                def cube(n): <br>
+                   ...return pow(n,3) <br>
+                map(cube,list) <br>
+                So whole list of integer values is now converted to cubes of integers<br>
+                <strong>Builtin functions:</strong> <br>
+                abs(x): gives absolute or positive of the value. For complex, it returns mod of z<br>
+                chr(i): takes ascii code and return character at that ascii code<br>
+                cmp(x,y): compares x and y strings and return 0 if both are equal. Returns >0 if x is bigger and <0 if y is bigger on basis of ascii code<br>
+                filter(function,list): filters the list according to a function and returns a new list<br>
+                a=[1,2,5,6,9] <br>
+                b=filter( lambda x: x<6 ) <br>
+                b is now [1,2,5] <br>
+                hex(x): convert to hexadecimal<br>
+                max(list) or min(list): gives maximum and minimum values of sequence. <br>
+                ord(x): gives ascii code of character given<br>
+                pow(x,y): power of x raised to y<br>
+                range(start,stop,step): return a range. Where stop and step are optional<br>
+                repr(x): gives string representation of object. Used to add numbers and strings  eg print(“age=”+repr(8)) <br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse18" class="head">Practise questions</a>
+              </h4>
+            </div>
+            <div id="collapse18" class="panel-collapse collapse">
+              <div class="panel-body lastbody">Q. Write a Python program to display the first and last colors from the following list.<br><br>
+                color_list = ["Red","Green","White" ,"Black"]<br>
+                print( "%s %s"%(color_list[0],color_list[-1])) <br>
+                Q Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers. <br>
+                 values = input("Input some comma seprated numbers : ")<br>
+                list = values.split(",")<br>
+                tuple = tuple(list) <br>
+                print('List : ',list) <br>
+                print('Tuple : ',tuple) <br><br>
+                Q Write a Python program to print the calendar of a given month and year.
+                Note : Use 'calendar' module. <br>
+                import calendar<br>
+                y = int(input(d Input the year : d))<br>
+                m = int(input(d Input the month : d))<br>
+                print(calendar.month(y, m)) <br><br>
+                Q Write a Python program to get the volume of a sphere with radius input<br>
+                pi = 3.14<br>
+                r= 6.0<br>
+                V= 4.0/3.0*pi* r**3<br>
+                print('The volume of the sphere is: ',V) <br><br>
+                Q Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum. <br>
+                def sum_thrice(x, y, z): <br>
+                
+                     ...sum = x + y + z<br>
+                  
+                     ...if x == y == z: <br>
+                      ......sum = sum * 3<br>
+                     ...return sum<br>
+                
+                print(sum_thrice(1, 2, 3)) <br>
+                print(sum_thrice(3, 3, 3)) <br><br>
+                Q Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user. <br>
+                num = int(input("Enter a number: "))<br>
+                if num%2 != 0: <br>
+                    ...print(d This is an odd number.d) <br>
+                else: <br>
+                    ...print(d This is an even number.d) <br><br>
+                Q Write a Python program to count the number 4 in a given list<br>
+                def list_count_4(nums): <br>
+                  ...count = 0  <br>
+                  ...for num in nums: <br>
+                    ......if num == 4: <br>
+                      .........count = count + 1<br>
+                
+                  ...return count<br>
+                
+                list1=[1,2,4,6,4,2,7] <br>
+                print(list_count_4(list1)) <br><br>
+                
+                Q Write a Python program to test whether a passed letter is a vowel or not. <br> 
+                def is_vowel(char): <br>
+                    ...all_vowels = ' aeiou '<br>
+                    ...return char in all_vowels<br>
+                print(is_vowel(' c ')) <br><br>
+                
+                Q Write a Python program to print out a set containing all the colors from color_list_1 which are not present in color_list_2. <br>
+                color_list_1 = set([d White d, d Black d, d Red d])<br>
+                color_list_2 = set([d Red d, d Green d])<br>
+                Expected Output : <br>
+                {'Black', 'White'}<br>
+                
+                color_list_1 = set(["White", "Black", "Red"])<br>
+                color_list_2 = set(["Red", "Green"])<br>
+                
+                print(color_list_1.difference(color_list_2)) <br><br>
+                
+                Q Write a Python program that will accept the base and height of a triangle and compute the area. <br>
+                
+                b = int(input(d Input the base : d))<br>
+                h = int(input(d Input the height : d))<br>
+                
+                area = b*h/2<br>
+                
+                print(d area = d, area) <br><br>
+                
+                Q Write a Python program to sum of three given integers. However, if two values are equal sum will be zero. <br>
+                
+                def sum(x, y, z): <br>
+                    ...if x == y or y == z or x==z: <br>
+                        ......sum = 0<br>
+                    ...else: <br>
+                        ......sum = x + y + z<br>
+                    ...return sum<br>
+                
+                print(sum(2, 1, 2)) <br><br>
+                
+                Q Write a Python program to display your details like name, age, address in three different lines. <br>
+                
+                def personal_details():<br>
+                    ...name, age = "Simon", 19<br>
+                    ...address = d Bangalore, Karnataka, India d<br>
+                    ...print("Name: {}\nAge: {}\nAddress: {}".format(name, age, address)) <br>
+                
+                personal_details()<br><br>
+                
+                Q Write a Python program to get OS name, platform and release information. <br>
+                
+                import platform<br>
+                import os<br>
+                print(os.name) <br>
+                print(platform.system())<br>
+                print(platform.release())<br><br>
+                
+                Q Write a program to get execution time for a Python method. <br>
+                
+                import time<br>
+                def sum_of_n_numbers(n): <br>
+                    ...start_time = time.time()<br>
+                    ...s = 0<br>
+                    ...for i in range(1,n+1): <br>
+                        ......s = s + i<br>
+                    ...end_time = time.time()<br>
+                    ...return s,end_time-start_time<br>
+                
+                n = 5<br>
+                print("\nTime to sum of 1 to ",n," and required time to calculate is :",sum_of_n_numbers(n)) <br>
+                <br>
+                Q Write a Python program to convert height (in feet and inches) to centimeters. <br>
+                
+                print(d Input your height: d)<br>
+                h_ft = int(input("Feet: "))<br>
+                h_inch = int(input("Inches: "))<br>
+                
+                h_inch += h_ft * 12<br>
+                h_cm = round(h_inch * 2.54, 1)
+                <br>
+                print("Your height is : %d cm." % h_cm) <br><br>
+                
+                Q  Write a Python program to calculate the sum of the digits in an integer. <br>
+                
+                num = int(input(“Enter number : ”)) <br>
+                n=0<br>
+                while num!=0 : <br>
+                ...r=num%10<br>
+                ...n+=r<br>
+                ...num/=10<br>
+                print(d sum of digits is %d d %n) <br><br>
+                
+                Q Write a Python program to add two positive integers without using the '+' operator. <br>
+                
+                def add_without_plus_operator(a, b): <br>
+                    ...while b != 0: <br>
+                        ......data = a & b<br>
+                        ......a = a ^ b<br>
+                        ......b = data <<< 1<br>
+                    ...return a<br>
+                print(add_without_plus_operator(2, 10)) <br><br>
+                
+                Q Write a Python program which solve the equation: <br>
+                ax+by=c<br>
+                dx+ey=f<br>
+                Print the values of x, y where a, b, c, d, e and f are given. <br>
+                
+                print("Input the value of a, b, c, d, e, f:") <br>
+                a, b, c, d, e, f = map(float, input().split())<br>
+                n = a*e - b*d<br>
+                print("Values of x and y:") <br>
+                if n != 0: <br>
+                    ...x = (c*e - b*f) / n<br>
+                    ...y = (a*f - c*d) / n<br>
+                    ...print('{:.3f} {:.3f}'.format(x+0, y+0)) <br>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse19" class="head">Unsolved Practise</a>
+              </h4>
+            </div>
+            <div id="collapse19" class="panel-collapse collapse">
+              <div class="panel-body lastbody">Q write a program to compute area of any one of circle , square and rectangle on user choice using function area() where side , l , b are integers and radius is float or decimal<br>
+                Q input a string and print number of times word ‘my’ appears<br>
+                Q input a list and check which number is repeated and how many times. also find the last index where repeated number comes.<br>
+                Q define a dictionary storing country, capital and popultion input by user and if capital name involves letter i , then print population otherwise all details<br>
+                Q define a function to calculate factorial. input an integer from user and form a list of fibonacci series of n elements. using factorial function, convert the list into factorial list<br>
+                Q input n integers in a list and print its reversed list<br>
+                Q calculte number of vowels present in a list<br>
+                Q input a list of strings and sort the list according to length of string in descending order<br>
+                Q input 4 characters and print all possible combinations of any number of characters.<br>
+                Q program to print character of input ascii code but print ascii code of the character if input is character<br>
+                Q input a list and reverse it. addboth list members in order and print the final list1<br>
+                Q input a tuple and find all positive,negative, odd and even numbers<br>
+                Q input a string and form a tuple of broken strings. string is broken when character 'a' is found<br>
+                Q input time in 23 hour format and convert into 12 hour formatted<br>
+                Q program to print even numbers from 2 to n without using loops<br>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+</body>
+</html>
